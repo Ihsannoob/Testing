@@ -58,7 +58,8 @@ nav ul li a:hover {
 #home p {
   font-size: 1.0em;
   opacity: 0;
-  animation: fade-in 2s fordwards;
+  animation: fade-in 2s forwards;
+  animation-delay: 2;
   margin-bottom: 10px;
 }
 
