@@ -1,0 +1,101 @@
+/* Reset default margin dan padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Bagian hero */
+#home {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#home h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 1.2em;
+}
+
+/* Bagian fitur */
+#features {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1.1em;
+}
+
+/* Bagian testimoni */
+#testimonials {
+  background-color: #eee;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 30px;
+}
+
+.testimonial p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* Bagian kontak */
+#contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
