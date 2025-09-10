@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', function() {
-  alert('Selamat datang di Luxenord Community!');
+  alert('Selamat datang kawan di server Minecraft kami 😆!');
 });
