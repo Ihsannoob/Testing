@@ -38,7 +38,7 @@ nav ul li a {
   transition: color 0.3s;
 }
 nav ul li a:hover {
-  color: #25D366; /* warna hijau WA atau sesuaikan tema */
+  color: #000000; /* warna hijau WA atau sesuaikan tema */
 }
 
 /* Bagian hero */
@@ -73,7 +73,7 @@ nav {
 }
 
 nav:hover {
-    background-color: #128C7E; /* Hijau gelap saat hover */
+    background-color: #000000; /* Hijau gelap saat hover */
 }
   
 /* Bagian fitur */
