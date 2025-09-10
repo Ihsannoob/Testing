@@ -61,18 +61,18 @@ nav ul li a:hover {
   opacity: 1;
   } 
 }
-nav {
+nav a {
   display: inline-block;
    padding: 10px 25px;
    background-color: #000000; /* Hijau khas WA */
-   color: white;
+   color: cyan;
    text-decoration: none;
    border-radius: 5px;
    font-weight: bold;
-   transition: background-color 0.3s;
+   transition: background-color 2s;
 }
 
-nav:hover {
+nav a:hover {
     background-color: #000000; /* Hijau gelap saat hover */
 }
   
