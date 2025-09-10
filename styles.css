@@ -62,11 +62,12 @@ nav ul li a:hover {
   } 
 }
 #home p {
-  font-size: 1.2em;
+  font-size: 1.0em;
   opacity: 0;
   animation: fadi-in 2s fordwards;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
+
   @keyframes fade-in {
   to {
   opacity: 1;
