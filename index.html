@@ -6,6 +6,17 @@
   <title>Luxenord Community</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000, // animasi 1 detik
+      once: true      // animasi hanya sekali saat discroll
+  });
+</script>
 <body>
   <header>
     <nav>
@@ -24,16 +35,22 @@
   </section>
 
   <section id="features">
-    <h2>Fitur Utama</h2>
-    <div class="feature">
-      <h3>Fitur 1</h3>
-      <p>Deskripsi fitur 1.</p>
-    </div>
-    <div class="feature">
-      <h3>Fitur 2</h3>
-      <p>Deskripsi fitur 2.</p>
-    </div>
-    <!-- Tambahkan fitur lainnya sesuai kebutuhan -->
+  <h2 data-aos="fade-up">Fitur Utama</h2>
+
+  <div class="feature" data-aos="fade-up" data-aos-delay="100">
+    <h3>Fitur 1</h3>
+    <p>Deskripsi fitur 1.</p>
+  </div>
+
+  <div class="feature" data-aos="fade-up" data-aos-delay="200">
+    <h3>Fitur 2</h3>
+    <p>Deskripsi fitur 2.</p>
+  </div>
+
+  <div class="feature" data-aos="fade-up" data-aos-delay="300">
+    <h3>Fitur 3</h3>
+    <p>Deskripsi fitur 3.</p>
+  </div>
   </section>
 
   <section id="testimonials">
