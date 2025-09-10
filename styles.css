@@ -92,6 +92,25 @@ nav ul li a {
   padding: 50px 20px;
   text-align: center;
 }
+#contact p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.WhatsApp {
+  display: inline-block;
+   padding: 10px 25px;
+   background-color: #25D366; /* Hijau khas WA */
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: bold;
+   transition: background-color 0.3s;
+    }
+
+ .WhatsApp:hover {
+    background-color: #128C7E; /* Hijau gelap saat hover */
+}
 
 footer {
   background-color: #333;
