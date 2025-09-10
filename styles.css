@@ -97,7 +97,7 @@ nav ul li a {
   font-size: 1.1em;
 }
 
-.WhatsApp {
+.whatsapp {
   display: inline-block;
    padding: 10px 25px;
    background-color: #25D366; /* Hijau khas WA */
@@ -108,7 +108,7 @@ nav ul li a {
    transition: background-color 0.3s;
     }
 
- .WhatsApp:hover {
+.whatsapp:hover {
     background-color: #128C7E; /* Hijau gelap saat hover */
 }
 
