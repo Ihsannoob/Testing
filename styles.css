@@ -75,6 +75,7 @@ nav a {
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
+  animation: fade-in 2s forwards;
   transition: background-color 0.3s, transform 0.3s;
   margin-bottom: 20px;
   display: inline-block; /* penting biar margin bawah bekerja */
@@ -82,7 +83,7 @@ nav a {
 
 nav a:hover {
   background-color: #128C7E;
-  transform: scale(1.05);
+  transform: scale(1.10);
 }
 
 #home p {
@@ -90,7 +91,7 @@ nav a:hover {
   margin-top: 20px;
   animation: fade-in 2s forwards;
   opacity: 0;
-  border: 2px solid cyan;
+  border: 2px solid gray;
   padding: 10px 20px;
   display: inline-block;
   border-radius: 8px;
@@ -98,10 +99,10 @@ nav a:hover {
 
 .mcmp {
   font-size: 1.2em;
-  margin-top: 15px; /* jarak dari IP */
+  margin-top: 20px; /* jarak dari IP */
   animation: fade-in 2s forwards;
   opacity: 0;
-  border: 2px solid cyan;
+  border: 2px solid gray;
   padding: 10px 20px;
   display: inline-block;
   border-radius: 8px;
