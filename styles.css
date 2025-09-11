@@ -86,10 +86,13 @@ nav a:hover {
 }
 #home p {
   font-size: 1.2em;
+  margin-top: 20px;
   margin-bottom: 50px;
+  animation: fade-in 2s forwards;
 }
 .mcmp {
   font-size: 1.2em;
+  animation: fade-in 2s forwards;
 }
 @keyframes fade-in {
   to { opacity: 1; 
