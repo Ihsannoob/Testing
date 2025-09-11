@@ -128,7 +128,13 @@ nav a:hover {
   display: inline-block;
   max-width: 300px;
   border-radius: 10px;
-  border-image: url("survival.png");
+
+  border: 20px solid transparent; /* wajib ada border width */
+  border-image-source: url("survival.png");
+  border-image-slice: 30; /* potongan gambar (atur sesuai kebutuhan) */
+  border-image-repeat: round; /* bisa round, repeat, stretch */
+  border-image-width: 20px;
+
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
