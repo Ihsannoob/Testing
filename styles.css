@@ -140,7 +140,6 @@ nav a:hover {
 #features {
   padding: 120px 20px;
   text-align: center;
-  background: #000; /* hitam kayak join.html */
   color: #fff;
 }
 
@@ -155,6 +154,7 @@ nav a:hover {
   margin: 15px;
   padding: 30px 20px;
   max-width: 250px;
+  background: #fff;
   color: #000;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
