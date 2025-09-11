@@ -146,5 +146,34 @@
   <footer>
     <p>&copy; 2025 Luxenity Store. Semua hak dilindungi.</p>
   </footer>
+  <!-- Modal QRIS -->
+<div id="qrisModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>📲 Scan QRIS untuk Pembayaran</h2>
+    <img src="qris.png" alt="QRIS" class="qris-img">
+    <p>Setelah bayar, kirim bukti ke Admin untuk aktivasi rank.</p>
+  </div>
+</div>
+
+<script>
+  // Buka modal saat klik tombol beli
+  document.querySelectorAll('.btn-buy').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      document.getElementById('qrisModal').style.display = 'flex';
+    });
+  });
+
+  // Tutup modal
+  document.querySelector('.close').onclick = () => {
+    document.getElementById('qrisModal').style.display = 'none';
+  };
+  window.onclick = e => {
+    if (e.target.classList.contains('modal')) {
+      document.getElementById('qrisModal').style.display = 'none';
+    }
+  };
+</script>
 </body>
 </html>
