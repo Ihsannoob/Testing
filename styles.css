@@ -57,10 +57,8 @@ nav ul li a:hover {
 
 /* Bagian hero */
 #home {
-  text-align: center;
-  color: #171717;
-  text-align: center;
-  padding: 200px 0;
+  text-align: center; /* biar semua elemen di tengah */
+  padding: 200px 0px;
 }
 
 #home h1 {
@@ -78,32 +76,35 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   transition: background-color 0.3s, transform 0.3s;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  display: inline-block; /* penting biar margin bawah bekerja */
 }
 
 nav a:hover {
   background-color: #128C7E;
-  transform: scale(1.05); /* efek animasi kecil saat hover */
+  transform: scale(1.05);
 }
-.mcmp {
-  font-size: 1.2em;
-  margin-top: 20px;
-  animation: fade-in 2s forwards;
-  opacity: 0;
-  border: 2px solid cyan;   /* Warna dan tebal border */
-  padding: 10px 20px;       /* Biar teks nggak nempel ke border */
-  display: inline-block;    /* Biar kotak pas dengan teks */
-  border-radius: 8px;       /* Opsional: bikin sudut agak melengkung */
-}
+
 #home p {
   font-size: 1.2em;
   margin-top: 20px;
   animation: fade-in 2s forwards;
   opacity: 0;
-  border: 2px solid cyan;   /* Warna dan tebal border */
-  padding: 10px 20px;       /* Biar teks nggak nempel ke border */
-  display: inline-block;    /* Biar kotak pas dengan teks */
-  border-radius: 8px;       /* Opsional: bikin sudut agak melengkung */
+  border: 2px solid cyan;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.mcmp {
+  font-size: 1.2em;
+  margin-top: 15px; /* jarak dari IP */
+  animation: fade-in 2s forwards;
+  opacity: 0;
+  border: 2px solid cyan;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 8px;
 }
 @keyframes fade-in {
   to { opacity: 1; 
