@@ -147,3 +147,19 @@ footer {
 }
 
 .close:hover { color: #fff; }
+
+.btn-download {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: cyan;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-download:hover {
+  background: #00bfbf;
+}
