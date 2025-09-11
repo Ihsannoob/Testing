@@ -201,6 +201,8 @@ nav a:hover {
 #contact p {
   margin-bottom: 20px;
   font-size: 1.1em;
+  animation: fade-in 2s forwards;
+  opacity: 0;
 }
 
 .whatsapp {
@@ -212,6 +214,8 @@ nav a:hover {
    border-radius: 5px;
    font-weight: bold;
    transition: background-color 0.3s;
+   animation: fade-in 2s forwards;
+   opacity: 0;
     }
 
 .whatsapp:hover {
