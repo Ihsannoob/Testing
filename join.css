@@ -1,0 +1,63 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000; /* hitam sesuai gambar */
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Container untuk 2 card */
+.container {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+/* Card style */
+.card {
+  background: #fff;
+  color: #000;
+  padding: 30px;
+  border-radius: 8px;
+  width: 180px;
+  text-align: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Logo di dalam card */
+.card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+/* Back button */
+.back {
+  text-align: center;
+}
+
+.back a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+
+.back a:hover {
+  color: cyan;
+}
