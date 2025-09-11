@@ -57,6 +57,7 @@ nav ul li a:hover {
 
 /* Bagian hero */
 #home {
+  text-align: center;
   color: #171717;
   text-align: center;
   padding: 200px 0;
