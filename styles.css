@@ -69,11 +69,6 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-@keyframes fade-in {
-  to { opacity: 1; 
-  }
-}
-
 nav a {
   background-color: #128C7E;
   color: cyan;
@@ -82,11 +77,23 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   transition: background-color 0.3s, transform 0.3s;
+  margin-bottom: 20px
 }
 
 nav a:hover {
   background-color: #128C7E;
   transform: scale(1.05); /* efek animasi kecil saat hover */
+}
+#home p {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+.mcmp {
+  font-size: 1.2em;
+}
+@keyframes fade-in {
+  to { opacity: 1; 
+  }
 }
 /* Bagian fitur */
 #features {
