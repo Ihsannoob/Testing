@@ -8,7 +8,9 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-image: url(background.png);
+  background-size: hover;
+  background-position: center;
   color: #333;
   padding-top: 60px; /* untuk header fixed */
 }
@@ -81,6 +83,7 @@ nav a {
 }
 
 nav a:hover {
+  background-color: #128C7E;
   transform: scale(1.05); /* efek animasi kecil saat hover */
 }
 /* Bagian fitur */
