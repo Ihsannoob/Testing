@@ -92,13 +92,6 @@ body {
 
 .btn-buy:hover { background: #00bfbf; }
 
-/* Contact */
-#contact {
-  text-align: center;
-  padding: 40px 20px;
-  border-top: 2px solid cyan;
-}
-
 /* Footer */
 footer {
   text-align: center;
