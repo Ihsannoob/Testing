@@ -100,6 +100,7 @@ nav a:hover {
 .mcmp {
   font-size: 1.2em;
   margin-top: 20px; /* jarak dari IP */
+  margin-bottom: 20px;
   animation: fade-in 2s forwards;
   opacity: 0;
   border: 2px solid gray;
@@ -109,7 +110,7 @@ nav a:hover {
 }
 nav m {
   font-size: 1.2em;
-  margin-top: 20px;
+  margin-top: 50px;
   animation: fade-in 2s forwards;
   opacity: 0;
   border: 2px solid gray;
@@ -131,6 +132,11 @@ nav m {
 #features h2 {
   font-size: 2em;
   margin-bottom: 40px;
+  border: 20px solid transparent; /* wajib ada border width */
+  border-image-source: url("survival.png");
+  border-image-slice: 30; /* potongan gambar (atur sesuai kebutuhan) */
+  border-image-repeat: round; /* bisa round, repeat, stretch */
+  border-image-width: 20px;
 }
 
 .feature {
@@ -139,13 +145,6 @@ nav m {
   display: inline-block;
   max-width: 300px;
   border-radius: 10px;
-
-  border: 20px solid transparent; /* wajib ada border width */
-  border-image-source: url("survival.png");
-  border-image-slice: 30; /* potongan gambar (atur sesuai kebutuhan) */
-  border-image-repeat: round; /* bisa round, repeat, stretch */
-  border-image-width: 20px;
-
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
