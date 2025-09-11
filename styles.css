@@ -101,7 +101,7 @@ nav a:hover {
 
 .mcmp {
   font-size: 1.2em;
-  margin-top: 50px; /* jarak dari IP */
+  margin-top: 100px; /* jarak dari IP */
   margin-bottom: 20px;
   animation: fade-in 2s forwards;
   opacity: 0;
