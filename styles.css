@@ -152,9 +152,6 @@ rank {
   margin-bottom: 30px;
 }
 
-.rank p {
-  font-size: 1.2em;
-  font-style: italic;
 .ranks {
   display: inline-block;
    padding: 10px 25px;
