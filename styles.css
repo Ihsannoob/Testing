@@ -143,18 +143,32 @@ nav a:hover {
 }
 
 /* Bagian testimoni */
-#testimonials {
+rank {
   padding: 200px 20px;
   text-align: center;
 }
 
-.testimonial {
+.rank {
   margin-bottom: 30px;
 }
 
-.testimonial p {
+.rank p {
   font-size: 1.2em;
   font-style: italic;
+.ranks {
+  display: inline-block;
+   padding: 10px 25px;
+   background-color: #25D366; /* Hijau khas WA */
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: bold;
+   transition: background-color 0.3s;
+    }
+
+.ranks:hover {
+    background-color: #128C7E; /* Hijau gelap saat hover */
+}
 }
 
 /* Bagian kontak */
