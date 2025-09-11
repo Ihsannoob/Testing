@@ -186,6 +186,47 @@ nav a:hover {
   line-height: 1.5;
 }
 
+/* Realtime Map Section */
+#realtime {
+  padding: 100px 20px;
+  text-align: center;
+  background: #0f172a; /* dark biar adem */
+  color: white;
+}
+
+#realtime h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: cyan;
+}
+
+/* Gambar Map */
+#realtime img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Tombol link */
+#realtime .realtime {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background: cyan;
+  color: #0f172a;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#realtime .realtime:hover {
+  background: #00bcd4;
+  transform: scale(1.05);
+}
 /* Bagian kontak */
 #contact {
   padding: 50px 20px;
