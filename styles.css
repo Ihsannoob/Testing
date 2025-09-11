@@ -76,7 +76,7 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   transition: background-color 0.3s, transform 0.3s;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   display: inline-block; /* penting biar margin bawah bekerja */
 }
