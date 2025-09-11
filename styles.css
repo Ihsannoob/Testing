@@ -155,8 +155,8 @@ nav a:hover {
 .ranks {
   display: inline-block;
    padding: 10px 25px;
-   background-color: #25D366; /* Hijau khas WA */
-   color: white;
+   background-color: #128C7E; /* Hijau khas WA */
+   color: cyan;
    text-decoration: none;
    border-radius: 5px;
    font-weight: bold;
