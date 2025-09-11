@@ -210,8 +210,12 @@ nav a:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
+.realtime {
+  margin-bottom: 30;
+}
+
 /* Tombol link */
-#realtime .realtime {
+.realtimes {
   display: inline-block;
   margin-top: 30px;
   padding: 12px 25px;
