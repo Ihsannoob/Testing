@@ -65,7 +65,7 @@ nav ul li a:hover {
   font-size: 2.5em;
   opacity: 0;
   animation: fade-in 2s forwards;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 nav a {
@@ -76,7 +76,7 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   transition: background-color 0.3s, transform 0.3s;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   display: inline-block; /* penting biar margin bawah bekerja */
 }
@@ -98,8 +98,7 @@ nav a:hover {
 
 .mcmp {
   font-size: 1.2em;
-  margin-top: 100px; /* jarak dari IP */
-  margin-bottom: 20px;
+  margin-top: 20px; 
   border: 2px solid gray;
   padding: 10px 20px;
   display: inline-block;
