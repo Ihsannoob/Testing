@@ -78,6 +78,7 @@ nav a {
   animation: fade-in 2s forwards;
   transition: background-color 0.3s, transform 0.3s;
   margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   display: inline-block; /* penting biar margin bawah bekerja */
 }
 
@@ -95,11 +96,12 @@ nav a:hover {
   padding: 10px 20px;
   display: inline-block;
   border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .mcmp {
   font-size: 1.2em;
-  margin-top: 20px; /* jarak dari IP */
+  margin-top: 50px; /* jarak dari IP */
   margin-bottom: 20px;
   animation: fade-in 2s forwards;
   opacity: 0;
@@ -107,6 +109,7 @@ nav a:hover {
   padding: 10px 20px;
   display: inline-block;
   border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 @keyframes fade-in {
   to { opacity: 1; 
