@@ -75,7 +75,6 @@ nav a {
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
-  animation: fade-in 2s forwards;
   transition: background-color 0.3s, transform 0.3s;
   margin-bottom: 20px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -90,8 +89,6 @@ nav a:hover {
 #home p {
   font-size: 1.2em;
   margin-top: 20px;
-  animation: fade-in 2s forwards;
-  opacity: 0;
   border: 2px solid gray;
   padding: 10px 20px;
   display: inline-block;
@@ -103,8 +100,6 @@ nav a:hover {
   font-size: 1.2em;
   margin-top: 100px; /* jarak dari IP */
   margin-bottom: 20px;
-  animation: fade-in 2s forwards;
-  opacity: 0;
   border: 2px solid gray;
   padding: 10px 20px;
   display: inline-block;
@@ -200,8 +195,6 @@ nav a:hover {
 #contact p {
   margin-bottom: 20px;
   font-size: 1.1em;
-  animation: fade-in 2s forwards;
-  opacity: 0;
 }
 
 .whatsapp {
@@ -213,8 +206,6 @@ nav a:hover {
    border-radius: 5px;
    font-weight: bold;
    transition: background-color 0.3s;
-   animation: fade-in 2s forwards;
-   opacity: 0;
     }
 
 .whatsapp:hover {
