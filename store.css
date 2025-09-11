@@ -1,0 +1,110 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #161b22;
+  border-bottom: 2px solid cyan;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: cyan;
+}
+
+.navbar nav a {
+  margin-left: 20px;
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+  color: cyan;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1f4068, #1b1b2f);
+}
+
+.hero h1 { font-size: 2.5em; margin-bottom: 15px; }
+.hero p { font-size: 1.2em; }
+
+/* Store */
+.store {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.rank-card {
+  background: #161b22;
+  border: 2px solid cyan;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.rank-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,255,255,0.3);
+}
+
+.rank-card h2 { color: cyan; margin-bottom: 10px; }
+.rank-card .price { font-size: 1.5em; margin-bottom: 15px; color: #00ffff; }
+
+.rank-card ul {
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.rank-card ul li { margin: 6px 0; }
+
+.btn-buy {
+  display: inline-block;
+  padding: 10px 20px;
+  background: cyan;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-buy:hover { background: #00bfbf; }
+
+/* Contact */
+#contact {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 2px solid cyan;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #161b22;
+  border-top: 2px solid cyan;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
