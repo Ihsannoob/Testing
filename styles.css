@@ -89,10 +89,12 @@ nav a:hover {
   margin-top: 20px;
   margin-bottom: 50px;
   animation: fade-in 2s forwards;
+  opacity: 0;
 }
 .mcmp {
   font-size: 1.2em;
   animation: fade-in 2s forwards;
+  opacity: 0;
 }
 @keyframes fade-in {
   to { opacity: 1; 
