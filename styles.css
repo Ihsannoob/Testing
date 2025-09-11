@@ -132,11 +132,6 @@ nav m {
 #features h2 {
   font-size: 2em;
   margin-bottom: 40px;
-  border: 20px solid transparent; /* wajib ada border width */
-  border-image-source: url("survival.png");
-  border-image-slice: 30; /* potongan gambar (atur sesuai kebutuhan) */
-  border-image-repeat: round; /* bisa round, repeat, stretch */
-  border-image-width: 20px;
 }
 
 .feature {
