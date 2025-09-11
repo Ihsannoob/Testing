@@ -93,7 +93,16 @@ nav a:hover {
   padding: 10px 20px;       /* Biar teks nggak nempel ke border */
   display: inline-block;    /* Biar kotak pas dengan teks */
   border-radius: 8px;       /* Opsional: bikin sudut agak melengkung */
-  background-color: rgba(0,0,0,0.3); /* Opsional: biar ada efek kotak lebih jelas */
+}
+#home p {
+  font-size: 1.2em;
+  margin-top: 20px;
+  animation: fade-in 2s forwards;
+  opacity: 0;
+  border: 2px solid cyan;   /* Warna dan tebal border */
+  padding: 10px 20px;       /* Biar teks nggak nempel ke border */
+  display: inline-block;    /* Biar kotak pas dengan teks */
+  border-radius: 8px;       /* Opsional: bikin sudut agak melengkung */
 }
 @keyframes fade-in {
   to { opacity: 1; 
