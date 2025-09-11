@@ -137,10 +137,10 @@ nav a:hover {
 /* Bagian kontak */
 #contact {
   padding: 200px 20px;
-  text-align: buttom;
+  text-align: center;
 }
 #contact p {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   font-size: 1.1em;
 }
 
