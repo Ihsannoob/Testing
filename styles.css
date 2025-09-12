@@ -50,7 +50,7 @@ header {
   overflow: hidden;
   max-height: 0;
   opacitiy: 0;
-  transition: max-height 2s ease, opacity 2s
+  transition: max-height 0.3s ease, opacity 0.3s
   list-style: none;
   padding: 0;
   z-index: 1000;
