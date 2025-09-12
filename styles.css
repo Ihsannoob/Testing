@@ -25,21 +25,38 @@ header {
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 255, 251, 0.36);
 }
-#main-home {
-  margin: 0 0px;
-}
-nav ul {
-  padding: 10px 0;
+.main-menu {
+  position: relative;
 }
 
-nav ul li {
-  margin: 0 15px;
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
 }
 
-nav ul li a {
-  padding: 10px 25px;
-  color: cyan;
-  font-weight: bold;
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  display: none; /* awalnya disembunyikan */
+  list-style: none;
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
 }
 
 /* Bagian hero */
