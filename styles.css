@@ -34,7 +34,7 @@ header {
   font-color: cyan;
   cursor: pointer;
   border-radius: 5px;
-  padding: 10px 5px;
+  padding: 5px 5px;
   background-color: black;
   box-shadow: 0 2px 5px rgba(0, 255, 251, 0.36);
   user-select: none;
@@ -43,16 +43,17 @@ header {
 .drop {
   position: absolute;
   right: 0;
-  top: 35px;
+  top: 40px;
   background-color: black;
+  width: 100vw;
   border-radius: 5px;
   overflow: hidden;
   display: none; /* awalnya disembunyikan */
   list-style: none;
   padding: 0;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 255, 251, 0.36);
 }
-
 .drop li a {
   display: block;
   padding: 10px 15px;
