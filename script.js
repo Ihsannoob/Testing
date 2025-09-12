@@ -5,16 +5,12 @@ const menuToggle = document.getElementById('menu');
 const dropdownMenu = document.getElementById('dropdown');
 
 menuToggle.addEventListener('click', () => {
-  if (dropdownMenu.style.display === 'block') {
-    dropdownMenu.style.display = 'none';
-  } else {
-    dropdownMenu.style.display = 'block';
-  }
+  dropdownmenu.classlist.toggle('active');
 });
 
 // Klik di luar menu untuk menutup
 document.addEventListener('click', function(event) {
   if (!menuToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
-    dropdownMenu.style.display = 'none';
+    dropdownMenu.classlist.remove('active');
   }
 });
