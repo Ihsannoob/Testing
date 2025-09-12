@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
   alert('Selamat datang kawan di server Minecraft kami 😆!');
 });
-const menuToggle = document.getElementById('menuToggle');
-const dropdownMenu = document.getElementById('dropdownMenu');
+const menuToggle = document.getElementById('menu');
+const dropdownMenu = document.getElementById('dropdown');
 
 menuToggle.addEventListener('click', () => {
   if (dropdownMenu.style.display === 'block') {
