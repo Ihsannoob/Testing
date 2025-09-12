@@ -5,7 +5,7 @@ const menuToggle = document.getElementById('menu');
 const dropdownMenu = document.getElementById('dropdown');
 
 menuToggle.addEventListener('click', () => {
-  dropdownmenu.classList.toggle('active');
+  dropdownMenu.classList.toggle('active');
 });
 
 // Klik di luar menu untuk menutup
