@@ -48,7 +48,9 @@ header {
   width: 100vw;
   border-radius: 5px;
   overflow: hidden;
-  display: none; /* awalnya disembunyikan */
+  max-height: 0;
+  opacitiy: 0;
+  transition: max-height 2s ease, opacity 2s
   list-style: none;
   padding: 0;
   z-index: 1000;
@@ -63,6 +65,11 @@ header {
 
 .drop li a:hover {
   background-color: #f0f0f0;
+}
+
+.drop.active {
+  max-height: 500px;
+  opacity: 1;
 }
 
 /* Bagian hero */
