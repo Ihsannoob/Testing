@@ -35,7 +35,7 @@ header {
   user-select: none;
 }
 
-.dropdown-menu {
+.drop {
   position: absolute;
   right: 0;
   top: 35px;
@@ -48,14 +48,14 @@ header {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.dropdown-menu li a {
+.drop li a {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
   color: #333;
 }
 
-.dropdown-menu li a:hover {
+.drop li a:hover {
   background-color: #f0f0f0;
 }
 
