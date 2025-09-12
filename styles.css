@@ -25,7 +25,9 @@ header {
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 255, 251, 0.36);
 }
-
+#main-home {
+  margin: 0 0px;
+}
 nav ul {
   padding: 10px 0;
 }
