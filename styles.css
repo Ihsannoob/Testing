@@ -31,9 +31,10 @@ header {
 
 .menu-icon {
   font-size: 30px;
+  font-color: cyan;
   cursor: pointer;
   border-radius: 5px;
-  padding: 10px 10px;
+  padding: 10px 5px;
   background-color: black;
   box-shadow: 0 2px 5px rgba(0, 255, 251, 0.36);
   user-select: none;
