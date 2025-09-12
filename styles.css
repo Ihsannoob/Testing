@@ -49,7 +49,7 @@ header {
   border-radius: 5px;
   overflow: hidden;
   max-height: 0;
-  opacitiy: 0;
+  opacity: 0;
   transition: max-height 0.3s ease, opacity 0.3s
   list-style: none;
   padding: 0;
