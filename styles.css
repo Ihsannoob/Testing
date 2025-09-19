@@ -274,6 +274,21 @@ nav a:hover {
     background-color: #128C7E; /* Hijau gelap saat hover */
 }
 
+.email {
+  display: inline-block;
+   padding: 10px 25px;
+   background-color: #33ccff; /* Hijau khas WA */
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: bold;
+   transition: background-color 0.3s;
+    }
+
+.email:hover {
+    background-color: #0000ff; /* Hijau gelap saat hover */
+}
+
 footer {
   background-color: #333;
   color: #fff;
