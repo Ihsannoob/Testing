@@ -262,7 +262,7 @@ nav a:hover {
 .whatsapp {
   display: inline-block;
    padding: 10px 25px;
-   background-color: #25D366; /* Hijau khas WA */
+   background-color: #25D366; 
    color: white;
    text-decoration: none;
    border-radius: 5px;
@@ -271,13 +271,13 @@ nav a:hover {
     }
 
 .whatsapp:hover {
-    background-color: #128C7E; /* Hijau gelap saat hover */
+    background-color: #128C7E; 
 }
 
 .email {
   display: inline-block;
    padding: 10px 25px;
-   background-color: #33ccff; /* Hijau khas WA */
+   background-color: #33ccff;
    color: white;
    text-decoration: none;
    border-radius: 5px;
@@ -286,7 +286,7 @@ nav a:hover {
     }
 
 .email:hover {
-    background-color: #0000ff; /* Hijau gelap saat hover */
+    background-color: #0000ff; 
 }
 
 footer {
