@@ -163,3 +163,18 @@ footer {
 .btn-download:hover {
   background: #00bfbf;
 }
+.feature {
+  display: inline-block;
+   padding: 10px 25px;
+   background-color: #33ccff; /* Hijau khas WA */
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: bold;
+   transition: background-color 0.3s;
+    }
+
+.feature:hover {
+    background-color: #0000ff; /* Hijau gelap saat hover */
+}
+
