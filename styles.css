@@ -27,6 +27,7 @@ header {
 }
 .main-menu {
   position: relative;
+  background-color: cyan;
 }
 
 .menu-icon {
