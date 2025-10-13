@@ -20,14 +20,14 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw; /* perbaikan */
+  width: 100vw; 
   background-color: #171717;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 255, 251, 0.36);
 }
 .main-menu {
   position: relative;
-  background-color: cyan;
+  background-color: gray;
 }
 
 .menu-icon {
@@ -36,7 +36,7 @@ header {
   cursor: pointer;
   border-radius: 5px;
   padding: 5px 10px;
-  background-color: black;
+  background-color: gray;
   box-shadow: 0 2px 5px rgba(0, 255, 251, 0.36);
   user-select: none;
 }
@@ -76,7 +76,7 @@ header {
 
 /* Bagian hero */
 #home {
-  text-align: center; /* biar semua elemen di tengah */
+  text-align: center; 
   padding: 200px 0px;
 }
 
@@ -88,7 +88,7 @@ header {
 }
 
 nav a {
-  background-color: #128C7E;
+  background-color: #FCFCFC;
   color: cyan;
   padding: 10px 25px;
   border-radius: 5px;
@@ -101,7 +101,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #128C7E;
+  background-color: #FCFCFC;
   transform: scale(1.10);
 }
 
